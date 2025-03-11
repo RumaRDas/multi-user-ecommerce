@@ -13,7 +13,6 @@ const Register = () => {
   };
   const submit = (e) => {
     e.preventDefault();
-    console.log(state);
   };
   return (
     <div className="min-w-screen min-h-screen bg-[#cdcae9] flex justify-center items-center">
