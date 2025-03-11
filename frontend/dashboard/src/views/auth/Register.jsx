@@ -1,5 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { FaGoogle } from "react-icons/fa";
+import { FaFacebook } from "react-icons/fa";
 const Register = () => {
   return (
     <div className="min-w-screen min-h-screen bg-[#cdcae9] flex justify-center items-center">
@@ -66,6 +68,31 @@ const Register = () => {
                   Sing In
                 </Link>
               </p>
+            </div>
+            <div className="w-full flex justify-center items-center mb-3">
+              <div className="w-[45%] bg-slate-700 h-[1px]"></div>
+              <div className="w-[10%] flex justify-center items-center">
+                <span className="pb-1">Or</span>
+              </div>
+              <div className="w-[45%] bg-slate-700 h-[1px]"></div>
+            </div>
+            <div className="flex justify-center items-center gap-3">
+              <div
+                className="w-[135px] h-[35px] flex rounded-md bg-orange-700 shadow-lg
+               hover:shadow-orange-700/50 justify-center items-center cursor-pointer overflow-hidden"
+              >
+                <span>
+                  <FaGoogle />
+                </span>
+              </div>
+              <div
+                className="w-[135px] h-[35px] flex rounded-md bg-blue-700 shadow-lg
+               hover:shadow-blue-700/50 justify-center items-center cursor-pointer overflow-hidden"
+              >
+                <span>
+                  <FaFacebook />
+                </span>
+              </div>
             </div>
           </form>
         </div>
